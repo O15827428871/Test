@@ -16,6 +16,7 @@
 		B515948521365AF700AE94DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B515948421365AF700AE94DB /* main.m */; };
 		B515948F21365AF700AE94DB /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B515948E21365AF700AE94DB /* TestTests.m */; };
 		B515949A21365AF700AE94DB /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B515949921365AF700AE94DB /* TestUITests.m */; };
+		B552DBF4214769C10088C018 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B552DBF3214769C10088C018 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		B515949521365AF700AE94DB /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B515949921365AF700AE94DB /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		B515949B21365AF700AE94DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B552DBF2214769C10088C018 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B552DBF3214769C10088C018 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				B515947621365AF500AE94DB /* AppDelegate.m */,
 				B515947821365AF500AE94DB /* ViewController.h */,
 				B515947921365AF500AE94DB /* ViewController.m */,
+				B552DBF2214769C10088C018 /* Person.h */,
+				B552DBF3214769C10088C018 /* Person.m */,
 				B515947B21365AF500AE94DB /* Main.storyboard */,
 				B515947E21365AF700AE94DB /* Assets.xcassets */,
 				B515948021365AF700AE94DB /* LaunchScreen.storyboard */,
@@ -288,15 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Test-checkManifestLockResult.txt",
 			);
@@ -314,6 +315,7 @@
 			files = (
 				B515947A21365AF500AE94DB /* ViewController.m in Sources */,
 				B515948521365AF700AE94DB /* main.m in Sources */,
+				B552DBF4214769C10088C018 /* Person.m in Sources */,
 				B515947721365AF500AE94DB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,7 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = Test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = Test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
