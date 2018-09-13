@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
+    NSLog(@"is google");
     //Person *p = [Person new];
     unsigned int count = 0;
     
